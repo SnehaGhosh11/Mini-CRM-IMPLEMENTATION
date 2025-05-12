@@ -1,0 +1,18 @@
+# Ignore node_modules folders (backend + frontend)
+mini-crm-backend/node_modules/
+mini-crm-frontend/node_modules/
+
+# Ignore environment files
+mini-crm-backend/.env
+mini-crm-frontend/.env
+
+# Ignore log files
+*.log
+
+# Ignore build/dist output
+mini-crm-frontend/dist/
+mini-crm-frontend/build/
+
+# System files
+.DS_Store
+Thumbs.db

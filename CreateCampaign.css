@@ -1,0 +1,54 @@
+.create-campaign {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.create-campaign h2 {
+  text-align: center;
+}
+
+.manual-rules {
+  margin-bottom: 20px;
+}
+
+.rule {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.rule select,
+.rule input {
+  margin: 0 10px;
+}
+
+.logic-selection {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.ai-output {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+}
+
+.suggested-message {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+}
